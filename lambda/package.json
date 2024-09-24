@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "weather.js",
   "dependencies": {
-    "axios": "^0.21.1",
-    "dotenv": "^16.4.5"
+    "axios": "^0.21.1"
   }
 }

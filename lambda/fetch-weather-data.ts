@@ -1,8 +1,6 @@
 import axios from 'axios';
 import { SecretsManagerClient, GetSecretValueCommand } from '@aws-sdk/client-secrets-manager';
 
-require('dotenv').config();
-
 const OPEN_WEATHER_MAP_URL = 'https://api.openweathermap.org/data/2.5/weather';
 
 export interface WeatherData {
