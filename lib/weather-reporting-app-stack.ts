@@ -51,7 +51,7 @@ export class WeatherReportingAppStack extends cdk.Stack {
           },
         },
       }),
-      handler: 'weather.weather',
+      handler: 'weather.handler',
       timeout: cdk.Duration.seconds(10),
       memorySize: 256,
       environment: {

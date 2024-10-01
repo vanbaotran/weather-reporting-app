@@ -5,7 +5,7 @@ import {fetchWeatherData} from "./fetch-weather-data";
 const CITY = 'paris';
 const CACHE_DURATION_IN_SECONDS = 3600; // 1 hour
 
-export async function weather(event: any) {
+export async function handler(event: any) {
     try {
         const timestamp = getCurrentHourTimestamp();
 
@@ -26,7 +26,7 @@ export async function weather(event: any) {
 
         return createHttpResponse(200, weatherData);
     } catch(error) {
-        console.error('Error in weather weather:', error);
+        console.error('Error in weather handler:', error);
         return createHttpResponse(500, { error: 'Internal server error' });
     }
 }
