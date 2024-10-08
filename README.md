@@ -21,7 +21,7 @@
 **Quick test**
 
 To test the app without deploying, you can access to this URL 
-```https://y93kaa3kkf.execute-api.eu-west-1.amazonaws.com/prod/paris```
+```https://y93kaa3kkf.execute-api.eu-west-1.amazonaws.com/prod/weather```
 
 You will get the response such as: 
 ```
